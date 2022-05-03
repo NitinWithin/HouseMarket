@@ -72,7 +72,7 @@ function Profile() {
             type="text"
             id='name'
             className={!changeDetails ? 'profileName' : 'profileNameActive'}
-            disbled={!changeDetails}
+            disabled={!changeDetails}
             value={name}
             onChange={onChange} />
 
@@ -80,7 +80,7 @@ function Profile() {
             type="text"
             id='email'
             className='profileEmail'
-            disbled={true}
+            disabled={true}
             value={email}
             onChange={onChange} />
         </form>
